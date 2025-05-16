@@ -1,0 +1,8 @@
+# 환경파일 무시시
+.env
+# 캐시 디렉터리 무시
+__pycache__/
+# 파이썬 bytecode
+*.pyc
+# vs code
+.vscode/
