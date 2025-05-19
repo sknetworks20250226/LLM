@@ -18,7 +18,7 @@ except Exception as e:
     raise
 
 # 데이터 플랫화
-def flatten_data(dataset):
+def flatten_data(dataset=dataset):
     temp_datasets = []
     for items in dataset['train']:        
         for item in items['data']:
@@ -34,6 +34,6 @@ def flatten_data(dataset):
 
 def main():
     if __name__ =='__main__':
-        print(flatten_data(dataset))
+        flatten_data()
 
 main()
