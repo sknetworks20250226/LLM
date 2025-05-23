@@ -64,5 +64,5 @@ def few_shot_cot(client,query):
         max_tokens=400,
         temperature = 0.7
     )
-    return response.choices[0].message.content
+    return response.choices[0].message.content 
 
